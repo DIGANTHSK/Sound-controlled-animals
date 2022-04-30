@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Sound Controlled Animals</title>
+<meta name="veiwport" content="width=device-width, initial-scale= 1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="container">
+<div class="col-xs-12 header_div text-center">
+<h2>Sound Controlled Animals</h2>
+<p>note: Play different sounds like meow, bark, roaring, mooing to display the images of animals</p>
+</div>
+<div class="main_div">
+<center>
+<br>
+<button class="btn btn-warning" onclick="startClassification()">START</button>
+<h3 id="result_label">I can hear- </h3>
+<h4 id="resule_confidence">ACCUARY- </h4>
+<br>
+<img src="dog-1.png" id="dog-1" width="300" heeight="300">
+<img src="lion.jpg" id="lion" width="300" height="300">
+<img src="cat.jpg" id="cat" width="300" height="300">
+<img src="cow.jpg" id="cow" width="300" height="300">
+</center>
+</div>
+<div class="copy_right_footer">
+Developed by - DIGANTH SK
+</div>
+<script src="main.js"></script>
+</body>
+</html>
